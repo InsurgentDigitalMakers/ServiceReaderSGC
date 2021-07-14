@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SGCAPIReader", "SGCAPIReader\SGCAPIReader.vbproj", "{38E3E7E2-2674-46D9-A411-8BF272B960CD}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ServiceLibrary", "ServiceLibrary\ServiceLibrary.vbproj", "{4D339733-2572-491B-BC40-1C24C9CED7AD}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ServiceReaderSGC", "ServiceReaderSGC\ServiceReaderSGC.vdproj", "{72529179-8495-4B9A-BCB8-8B071895567C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38E3E7E2-2674-46D9-A411-8BF272B960CD}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{38E3E7E2-2674-46D9-A411-8BF272B960CD}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{38E3E7E2-2674-46D9-A411-8BF272B960CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38E3E7E2-2674-46D9-A411-8BF272B960CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D339733-2572-491B-BC40-1C24C9CED7AD}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{4D339733-2572-491B-BC40-1C24C9CED7AD}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{4D339733-2572-491B-BC40-1C24C9CED7AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D339733-2572-491B-BC40-1C24C9CED7AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72529179-8495-4B9A-BCB8-8B071895567C}.Debug|Any CPU.ActiveCfg = Release
+		{72529179-8495-4B9A-BCB8-8B071895567C}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {280241A2-0B4C-4540-9056-54758B91C349}
+	EndGlobalSection
+EndGlobal
